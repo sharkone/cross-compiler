@@ -1,5 +1,5 @@
-FROM steeve/cross-compiler:base
-MAINTAINER Steeve Morin "steeve.morin@gmail.com"
+FROM sharkone/cross-compiler:base
+MAINTAINER Thomas Texier "sharkone@en-mousse.org"
 
 RUN apt-get update && apt-get -y --force-yes install \
                         bash \
