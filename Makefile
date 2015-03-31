@@ -1,5 +1,5 @@
 PLATFORMS = android-arm darwin-x64 linux-x86 linux-x64 linux-arm windows-x86 windows-x64
-docker    = docker
+DOCKER    = docker
 IMAGE     = sharkone/cross-compiler
 
 all:
